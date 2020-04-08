@@ -1,0 +1,63 @@
+.logo img{
+	position: absolute;
+	margin-left: 360px;
+}
+.logo h1{
+	position: absolute;
+	margin-left: 620px;
+	margin-top: 15px;
+	text-align: center;
+}
+.rules {
+	position: absolute;
+	margin-top: 85px;
+	margin-left: 360px;
+}
+.first{
+  position: absolute;	
+  background-color: lightgrey;
+  width: 700px;
+  border: 5px solid green;
+  padding: 35px;
+  margin: 20px;
+  margin-top: 400px;
+  margin-left: 360px;
+}
+.second{
+  position: absolute;	
+  background-color: lightgrey;
+  width: 700px;
+  border: 5px solid green;
+  padding: 35px;
+  margin: 20px;
+  margin-top: 1200px;
+  margin-left: 360px;
+
+}
+.third{
+  position: absolute;	
+  background-color: lightgrey;
+  width: 700px;
+  border: 5px solid green;
+  padding: 35px;
+  margin: 20px;
+  margin-top: 2900px;
+  margin-left: 360px;
+
+}
+.four{
+  position: absolute;	
+  background-color: lightgrey;
+  width: 700px;
+  border: 5px solid green;
+  padding: 35px;
+  margin: 20px;
+  margin-top: 3300px;
+  margin-left: 360px;
+
+}
+#submit{
+	position: absolute;
+	margin-top: 4240px;
+	margin-left: 730px;
+}

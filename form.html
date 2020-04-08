@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<title>SUC Application Form</title>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="logo.jpg" width="240" height="75">
+			<h1>网上报名 Online Registration</h1>
+		</div>
+		<div class="rules">
+			<p>Instrutions:</p>
+			<ol>
+				<li>This forms contains five (5) parts,please fill out this form before submission.</li>
+				<li>The required fields are marked in red asterisk(<span style="color: red">*</span>).</li>
+				<li>Kindly please check and make sure contact informations are <b>correct</b>, our staff will use these information to get in touch with you.</li>
+				<li>No amendment is allowed after you submit your application.</li>
+			</ol>
+			<p>注意事项：</p>
+			<ol>
+				<li>这个报名表格共有五大项目，请仔细填写。</li>
+				<li>必填资料已被标上红色星号（<span style="color: red">*</span>）。</li>
+				<li>我们将会使用您所提供的联络方式与您联络，请确保联络资料<b>正确无误</b>。</li>
+				<li>表格提交后将无法再修改所提交的资料。</li>
+			</ol>
+		</div>
+	</header>
+	<section>
+		<div class="first">
+			<div>
+				<h2>1. 入学学期 & 资料 - Intake & choices</h2>
+				<p>申请入学梯次 - Intake and programme</p>
+				<h3>请选择入学年份和入学梯次。</br>
+                    Please select intake year and intake.</h3>
+                    <label for="2020May">
+                    	<input id="2020May" type="radio" name="2020May">2020May
+                    </label>
+                    <label for="2020Sep">
+                    	<input id="2020Sep" type="radio" name="2020Sep">2020Sep
+                    </label>
+                <h3>  申请科系 - Choice of Programme</h3>  
+                <h4>第一志愿<span style="color: red">*</span></br>
+                    1st Choice</h4>  
+                    <label for="1choice">
+                    	<select id="1" required>
+                    		<option value="请选择-Click to choose">请选择-Click to choose</option>
+                    		<option value="Art and Design">Art and Design</option>
+                    		<option value="Engineering & Information Technology">Engineering & Information Technology</option>
+                    		<option value="Education & Psychology">Education & Psychology</option>
+                    		<option value="Humanities & Social Sciences">Humanities & Social Sciences</option>
+                    		<option value="Business & Management">Business & Management</option>
+                    	</select>
+                    </label>
+                <h4>第二志愿<span style="color: red">*</span></br>
+                    2nd Choice</h4> 
+                    <label for="2choice" >
+                    	<select id="2" required>
+                    		<option value="请选择-Click to choose">请选择-Click to choose</option>
+                    		<option value="Art and Design">Art and Design</option>
+                    		<option value="Engineering & Information Technology">Engineering & Information Technology</option>
+                    		<option value="Education & Psychology">Education & Psychology</option>
+                    		<option value="Humanities & Social Sciences">Humanities & Social Sciences</option>
+                    		<option value="Business & Management">Business & Management</option>
+                    	</select>
+                    </label>
+                <h4>第三志愿<span style="color: red">*</span></br>
+                    3rd Choice</h4> 
+                    <label for="3choice">
+                    	<select id="3" required>
+                    		<option value="请选择-Click to choose">请选择-Click to choose</option>
+                    		<option value="Art and Design">Art and Design</option>
+                    		<option value="Engineering & Information Technology">Engineering & Information Technology</option>
+                    		<option value="Education & Psychology">Education & Psychology</option>
+                    		<option value="Humanities & Social Sciences">Humanities & Social Sciences</option>
+                    		<option value="Business & Management">Business & Management</option>
+                    	</select>
+                    </label> 
+                <h3>申请住宿 - Hostel</h3> 
+                    <label for="Yes" >
+                    	<input id="Yes" type="radio" name="Yes">Yes
+                    </label>
+                    <label for="No">
+                    	<input id="No" type="radio" name="No">No
+                    </label>
+                <h3>奖贷申请 - Scholarship</h3> 
+                    <label for="ship">
+                    	<select id="ship">
+                    		<option value="无-None">无-None</option>
+                    		<option value="学优生奖学金-Excellent Students Full Scholarship">学优生奖学金-Excellent Students Full Scholarship</option>
+                    		<option value="多元文化奖学金-Multi cultural Scholarship">多元文化奖学金-Multi cultural Scholarship</option>
+                    		<option value="新生奖学金-New Students Scholarship">新生奖学金-New Students Scholarship</option>
+                    	</select>
+                    </label>    
+
+                         
+			</div>
+		</div>
+		<div class="second">
+			<div>
+				<h2>2. 个人资料 - Personal Information</h2>
+				<h4>中文姓名:<span style="color: red">*</span></br>
+                    Chinese name</h4>
+                    <input type="text" name="chinese name" required>
+
+                <h4>英文姓名：<span style="color: red">*</span></br>
+                    English name</h4>
+                    <input type="text" name="english name" required>
+				<h4>性别:<span style="color: red">*</span></br>
+                    Gender</h4>
+                    <label for="女 Female" >
+                    	<input id="女 Female" type="radio" name="女 Female">女 Female
+                    </label>
+                    <label for="男 Male">
+                    	<input id="男 Male" type="radio" name="男 Male">男 Male
+                    </label>
+                <h4>出生日期:<span style="color: red">*</span></br>
+                    Date of Birth</h4>   
+                    <input type="text" name="birth" required> 
+                <h4>国籍:<span style="color: red">*</span></br>
+                    Nationality</h4>
+                    <label for="nation">
+                    	<select id="nation" required>
+                    		<option value="请选择-Click to choose">请选择-Click to choose</option>
+                    		<option value="马来西亚-Malaysian">马来西亚-Malaysian</option>
+                    	</select>
+                    </label> 
+                <h4>身份证件号:<span style="color: red">*</span></br>
+                    NRIC No.</h4>  
+                    <input type="text" name="NRIC" required> 
+                <h4>种族:<span style="color: red">*</span></br>
+                    Race</h4>
+                    <label for="Race">
+                    	<select id="Race" required>
+                    		<option value="请选择-Click to choose">请选择-Click to choose</option>
+                    		<option value="Chinese">Chinese</option>
+                    		<option value="Malay">Malay</option>
+                    		<option value="Indian">Indian</option>
+                    	</select>
+                    </label> 
+                <h4>宗教:<span style="color: red">*</span></br>
+                    Religion</h4> 
+                    <label for="Religion">
+                    	<select id="Religion" required>
+                    		<option value="请选择-Click to choose">请选择-Click to choose</option>
+                    		<option value="无-None">无-None</option>
+                    		<option value="佛教-Buddhism">佛教-Buddhism</option>
+                    		<option value="道教-Taoism">道教-Taoism</option>
+                    		<option value="基督教-Christianity">基督教-Christianity</option>
+                    		<option value="天主教-Catholic">天主教-Catholic</option>
+                    		<option value="伊斯兰教-Islam">伊斯兰教-Islam</option>
+                    		<option value="兴都教-Hinduism">兴都教-Hinduism</option>
+                    		<option value="其他-Others">其他-Others</option>
+                    	</select>
+                    </label>  
+                <h4>住家电话:</br>
+                    House phone number</h4>
+                    <input type="text" name="phone"> 
+                <h4>手提电话:<span style="color: red">*</span></br>
+                    Mobile number</h4> 
+                    <input type="text" name="mobile" required>
+                <h4>电邮:<span style="color: red">*</span></br>
+                    E-mail</h4> 
+                    <input type="text" name="E-mail" placeholder="xxxx@gmail.com" required> 
+                <h4>住家地址:<span style="color: red">*</span></br>
+                    Address</h4>
+                    <input type="text" name="home" required>
+                <h4>地区:<span style="color: red">*</span></br>
+                    Area</h4>  
+                    <input type="text" name="home" required>
+                <h4>邮编:<span style="color: red">*</span></br>
+                    Postcode</h4>  
+                     <input type="text" name="Postcode" required>  
+                <h4>州属:<span style="color: red">*</span></br>
+                    State</h4> 
+                    <input type="text" name="State" required>
+			</div>
+		</div>
+		<div class="third">
+			<h2>3.学历 - Academic qualification</h2>
+			<h4>中学:<span style="color: red">*</span></br>
+                Secondary school</h4>
+                <input type="text" name="State" required>
+            <h4>大专:</br>
+                Higher Instituition</h4> 
+                <input type="text" name="State">   
+		</div>
+		<div class="four">
+			<h2>4.入学成绩 - Certificate & Grades</h2>
+			<h4>证书名称:<span style="color: red">*</span></br>
+                Certificate</h4>
+                <label for="Certificate">
+                    	<select id="Certificate" required>
+                    		<option value="请选择-Click to choose">请选择-Click to choose</option>
+                    		<option value="SPM">SPM</option>
+                    		<option value="UEC">UEC</option>
+                    		<option value="STPM">STPM</option>
+                    		<option value="A Level">A Level</option>
+                    		<option value="其他-Others">其他-Others</option>
+                    	</select>
+                </label> 
+            <h4>请您输入用来申请入学的成绩<span style="color: red">*</span></h4>  
+            <h4>科目 Subject:</h4> 
+            <h3><span style="color: blue;">中文 Chinese</span></h3>
+            <h4>程度 Qualification</h4> 
+                <label for="Qualification">
+                    	<select id="Qualification" required>
+                    		<option value="请选择-Click to choose">请选择-Click to choose</option>
+                    		<option value="SPM">SPM</option>
+                    		<option value="UEC">UEC</option>
+                    		<option value="STPM">STPM</option>
+                    		<option value="A Level">A Level</option>
+                    		<option value="其他-Others">其他-Others</option>
+                    	</select>
+                </label> 
+            <h4>等级 Grade</h4>    
+                 <label for="Grade">
+                    	<select id="Grade" required>
+                    		<option value="请选择-Click to choose">请选择-Click to choose</option>
+                    		<option value="1A">1A</option>
+                    		<option value="2A">2A</option>
+                    		<option value="3B">3B</option>
+                    		<option value="4B">4B</option>
+                    		<option value="5C">5C</option>
+                    		<option value="6C">6C</option>
+                    		<option value="7D">7D</option>
+                    		<option value="8E">8E</option>
+                    		<option value="9G">9G</option>
+                    		<option value="A+">A+</option>
+                    		<option value="A">A</option>
+                    		<option value="A-">A-</option>
+                    		<option value="B+">B+</option>
+                    		<option value="B">B</option>
+                    		<option value="C">C</option>
+                    		<option value="C+">C+</option>
+                    		<option value="D">D</option>
+                    		<option value="E">E</option>
+                    		<option value="G">G</option>
+                    	</select>
+                </label> 
+            <h3><span style="color: blue;">国文 Bahasa Malaysia</span></h3>
+            <h4>程度 Qualification</h4> 
+                <label for="Qualification1">
+                    	<select id="Qualification1" required>
+                    		<option value="请选择-Click to choose">请选择-Click to choose</option>
+                    		<option value="SPM">SPM</option>
+                    		<option value="UEC">UEC</option>
+                    		<option value="STPM">STPM</option>
+                    		<option value="A Level">A Level</option>
+                    		<option value="其他-Others">其他-Others</option>
+                    	</select>
+                </label> 
+            <h4>等级 Grade</h4>    
+                 <label for="Grade1">
+                    	<select id="Grade1" required>
+                    		<option value="请选择-Click to choose">请选择-Click to choose</option>
+                    		<option value="1A">1A</option>
+                    		<option value="2A">2A</option>
+                    		<option value="3B">3B</option>
+                    		<option value="4B">4B</option>
+                    		<option value="5C">5C</option>
+                    		<option value="6C">6C</option>
+                    		<option value="7D">7D</option>
+                    		<option value="8E">8E</option>
+                    		<option value="9G">9G</option>
+                    		<option value="A+">A+</option>
+                    		<option value="A">A</option>
+                    		<option value="A-">A-</option>
+                    		<option value="B+">B+</option>
+                    		<option value="B">B</option>
+                    		<option value="C">C</option>
+                    		<option value="C+">C+</option>
+                    		<option value="D">D</option>
+                    		<option value="E">E</option>
+                    		<option value="G">G</option>
+                    	</select>
+                </label> 
+             <h3><span style="color: blue;">英文 English</span></h3>
+            <h4>程度 Qualification</h4> 
+                <label for="Qualification2">
+                    	<select id="Qualification2" required>
+                    		<option value="请选择-Click to choose">请选择-Click to choose</option>
+                    		<option value="SPM">SPM</option>
+                    		<option value="UEC">UEC</option>
+                    		<option value="STPM">STPM</option>
+                    		<option value="A Level">A Level</option>
+                    		<option value="其他-Others">其他-Others</option>
+                    	</select>
+                </label> 
+            <h4>等级 Grade</h4>    
+                 <label for="Grade2">
+                    	<select id="Grade2" required>
+                    		<option value="请选择-Click to choose">请选择-Click to choose</option>
+                    		<option value="1A">1A</option>
+                    		<option value="2A">2A</option>
+                    		<option value="3B">3B</option>
+                    		<option value="4B">4B</option>
+                    		<option value="5C">5C</option>
+                    		<option value="6C">6C</option>
+                    		<option value="7D">7D</option>
+                    		<option value="8E">8E</option>
+                    		<option value="9G">9G</option>
+                    		<option value="A+">A+</option>
+                    		<option value="A">A</option>
+                    		<option value="A-">A-</option>
+                    		<option value="B+">B+</option>
+                    		<option value="B">B</option>
+                    		<option value="C">C</option>
+                    		<option value="C+">C+</option>
+                    		<option value="D">D</option>
+                    		<option value="E">E</option>
+                    		<option value="G">G</option>
+                    	</select>
+                </label> 
+		</div>
+		<div id="submit">
+			<input type="submit">
+		</div>
+	</section>
+
+</body>
+</html>
