@@ -1,0 +1,100 @@
+a{
+	font-weight: bold;
+	font-size: 24px;
+	background-color: brown;
+	color: white;
+	padding: 5px 15px;
+	border-radius: 50px;
+    cursor: pointer;
+}
+a:hover{
+	background-color: white;
+    color: black;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: Helvetica;
+	z-index: 1;
+	position: fixed;
+}
+
+header h1{
+	margin-right: 80px;
+	margin-top: -450px;
+	margin-left: 180px;
+	font-size: 75px;
+	font-style: italic;
+	color: white;
+}
+header h1 a:hover{
+	background-color: white;
+    color: black;
+}
+
+section .history{
+	position: absolute;
+	font-size: 25px;
+	margin-top: 220px;
+	margin-left: 750px;
+	margin-right: 150px;
+	color: white;
+}
+#photo1{
+	position: absolute;
+	margin-top: 165px;
+}
+#photo2{
+	position: absolute;
+	margin-top: 800px;
+}
+section .type{
+	position: absolute;
+	font-size: 25px;
+	margin-top: 890px;
+	margin-left: 150px;
+	margin-right: 750px;
+	color: white;
+}
+#photo3{
+	position: absolute;
+	margin-top: 1430px;
+}
+section .benefit{
+	position: absolute;
+	font-size: 25px;
+	margin-top: 1490px;
+	margin-left: 750px;
+	margin-right: 150px;
+	color: white;
+}
+#photo5{
+	position: absolute;
+	margin-top: 2065px;
+
+}
+#photo4{
+	position: absolute;
+	margin-top: 2120px;
+	margin-left: 800px;
+}
+section .cafe{
+	position: absolute;
+	font-size: 30px;
+	margin-top: 2150px;
+	margin-right: 750px;
+	margin-left: 250px;
+	color: white;
+}
+footer {
+  margin-top: 2700px;	
+  background-color:rgb(138, 85, 12);
+  color: rgba(255, 255, 255, .8);
+  padding: 75px;
+  text-align: center;
+  position: absolute;
+  width: 1375px;
+  height: 100px;
+}
